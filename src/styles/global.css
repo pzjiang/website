@@ -1,3 +1,15 @@
 html {
     background-color: lavenderblush;
+    position: absolute;
+    top: 0px;
+    width: auto;
+    margin: 0px;
+
 }
+
+* {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
