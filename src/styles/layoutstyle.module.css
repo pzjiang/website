@@ -9,3 +9,13 @@
   
 
 }
+
+.tabs {
+    margin-right: 1rem;
+    display: inline-block;
+}
+
+.pagetabs {
+    float: right;
+    list-style: none;
+}
