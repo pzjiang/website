@@ -9,6 +9,23 @@ const ListLink = props => (
     </li>
 )
 
+const navTop = {
+    backgroundColor: "#333",
+    transition: "all 0.3s",
+};
+
+const navScroll = {
+    backgroundColor: "#F00",
+    transition: "all 0.3s",
+};
+
+
+const Navigation = props => (
+    <ul>
+        {props.children}
+    </ul>
+)
+
 export default function Layout({ children }) {
     return (
 
