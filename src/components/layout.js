@@ -14,7 +14,8 @@ export default function Layout({ children }) {
 
         <div className={layoutstyle.banner}>
             <header className={layoutstyle.banned}>
-                <h1>Hello</h1>
+                <h1>hello</h1>
+
                 <ul className={layoutstyle.pagetabs}>
                     <ListLink to="/">Home</ListLink>
                     <ListLink to="/contact/">Contact</ListLink>
