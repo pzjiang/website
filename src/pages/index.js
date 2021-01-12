@@ -5,7 +5,8 @@ export default function Home() {
   return (
     <div>
       <Layout>
-        <p1>hello world</p1>
+        <h1>Home Page</h1>
+        <p1>Welcome to my website!</p1>
       </Layout>
     </div>
   )
