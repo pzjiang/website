@@ -9,6 +9,7 @@ const ListLink = props => (
     </li>
 )
 
+/*
 const navTop = {
     backgroundColor: "#333",
     transition: "all 0.3s",
@@ -25,6 +26,9 @@ const Navigation = props => (
         {props.children}
     </ul>
 )
+*/
+
+
 
 export default function Layout({ children }) {
     return (
@@ -46,6 +50,7 @@ export default function Layout({ children }) {
 
 
             {children}
+
 
         </div>
 

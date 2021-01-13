@@ -13,20 +13,21 @@
 }
 
 .tablist {
-    margin-right: 1rem;
+    margin-right: 3rem;
     display: inline-block;
     
 }
 .tabs {
-    color: rgb(233, 196, 196);
+    color: rgb(231, 212, 212);
 }
 .tabs:hover {
-    color: rgb(233, 196, 196);
+    color: rgb(231, 212, 212);
 }
 
 .pagetabs {
     float: right;
     list-style: none;
+    margin-top: 0.3rem;
     
 }
 
