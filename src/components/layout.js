@@ -4,8 +4,8 @@ import { Link } from "gatsby"
 
 
 const ListLink = props => (
-    <li className={layoutstyle.tabs}>
-        <Link to={props.to}>{props.children}</Link>
+    <li className={layoutstyle.tablist}>
+        <Link className={layoutstyle.tabs} to={props.to}>{props.children}</Link>
     </li>
 )
 
@@ -31,14 +31,15 @@ export default function Layout({ children }) {
 
         <div className={layoutstyle.banner}>
             <header className={layoutstyle.banned}>
-                <h1>hello</h1>
+
 
                 <ul className={layoutstyle.pagetabs}>
-                    <ListLink to="/">Home</ListLink>
+                    <ListLink to="/about/">About</ListLink>
                     <ListLink to="/contact/">Contact</ListLink>
-
+                    <ListLink to="/projects/">Projects</ListLink>
 
                 </ul>
+                <Link className={layoutstyle.homelink} to="/">PETER JIANG</Link>
 
 
             </header>

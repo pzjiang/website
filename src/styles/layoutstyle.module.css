@@ -1,22 +1,44 @@
 .banner {
     margin: 0 0 auto;
+    background-color: lavenderblush
     
   
 }
 
 .banned {
-    background-color: greenyellow;
+    background-color: rgb(184, 119, 141);
     
   
 
 }
 
-.tabs {
+.tablist {
     margin-right: 1rem;
     display: inline-block;
+    
+}
+.tabs {
+    color: rgb(233, 196, 196);
+}
+.tabs:hover {
+    color: rgb(233, 196, 196);
 }
 
 .pagetabs {
     float: right;
     list-style: none;
+    
+}
+
+.homelink {
+    margin: 1rem;
+    font-weight: bold;
+    color: #462c2c;
+    
+    font-size: 26px;
+}
+.homelink:hover {
+    text-decoration: none;
+    color: #462c2c;
+   
 }
