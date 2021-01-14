@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <Layout>
 
-        <h1 style={{ textAlign: `center` }}>Home Page</h1>
+        <h1 style={{ textAlign: `center`, marginTop: `4vh` }}>Home Page</h1>
         <p1>Welcome to my website!</p1>
 
       </Layout>

@@ -48,9 +48,9 @@ export default function Layout({ children }) {
 
             </header>
 
-
-            {children}
-
+            <div className={layoutstyle.content}>
+                {children}
+            </div>
 
         </div>
 
