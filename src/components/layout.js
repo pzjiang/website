@@ -30,7 +30,7 @@ const Navigation = props => (
 
 
 
-export default function Layout({ children }) {
+export default function Layout({ props }) {
     return (
 
         <div className={layoutstyle.banner}>
@@ -38,19 +38,15 @@ export default function Layout({ children }) {
 
 
                 <ul className={layoutstyle.pagetabs}>
-                    <ListLink to="/about/">About</ListLink>
-                    <ListLink to="/contact/">Contact</ListLink>
-                    <ListLink to="/projects/">Projects</ListLink>
+                    <ListLink to="/#about">About</ListLink>
+                    <ListLink to="/#contact">Contact</ListLink>
+                    <ListLink to="/#projects">Projects</ListLink>
 
                 </ul>
                 <Link className={layoutstyle.homelink} to="/">PETER JIANG</Link>
 
 
             </header>
-
-            <div className={layoutstyle.content}>
-                {children}
-            </div>
 
         </div>
 
