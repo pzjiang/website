@@ -1,0 +1,39 @@
+.mainDesk {
+    background-color: rgb(233, 201, 212);
+    margin: 0;
+}
+
+
+
+.mainDesk{
+
+}
+
+.welcomeSect {
+    background-color: transparent;
+
+    display: flex;
+
+}
+
+.bodyText {
+    width: 65vw;
+    margin-left: 18vw;
+}
+
+
+.aboutSect{
+    text-align: center;
+    
+  
+    margin: 0;
+
+}
+
+.projectSect{
+
+}
+
+.contactSect{
+
+}
