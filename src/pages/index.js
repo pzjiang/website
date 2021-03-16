@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout.js"
 import style from "../styles/index.module.css"
+import Footer from "../components/footer.js"
 
 
 
@@ -27,25 +28,33 @@ export default function Home() {
 
 
           <p style={{ textAlign: "left" }}>
-            Hello Hello! My name is Peter Jiang, and I am currently a Sophomore at Purdue University.
+            &emsp; &emsp; Hello Hello! My name is Peter Jiang, and I am currently a Sophomore at Purdue University. I am currently pursuing a degree in Computer Science,
+            with a dual concentration in Software Engineering and Machine Learning.
+            <br /> <br />
+            &emsp; &emsp; Now you might be wondering, why did I choose computer science? What was it that
+            drew me to this field?
+
           </p>
 
 
         </section>
 
         <section id="project" className={style.projectSect}>
-          <h1>projects tab</h1>
+          <h1>Projects</h1>
 
         </section>
 
         <section id="contact" className={style.contactSect}>
           <div>
-            <h1>contact me</h1>
+            <h1>Contact</h1>
           </div>
 
         </section>
 
+
+
       </div>
+
 
     </div >
   )
