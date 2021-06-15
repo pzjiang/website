@@ -1,16 +1,10 @@
 .mainDesk {
     background-color: rgb(233, 201, 212);
     margin: 0;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+    
 }
 
 
-
-.mainDesk{
-
-}
 
 .welcomeSect {
     background-color: transparent;
@@ -20,8 +14,11 @@
 }
 
 .bodyText {
-    width: 65vw;
-    margin-left: 18vw;
+    width: 70vw;
+    margin-left: 15vw;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 

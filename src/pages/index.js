@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout.js"
 import style from "../styles/index.module.css"
-import Footer from "../components/footer.js"
+//import Footer from "../components/footer.js"
 
 
 
@@ -24,7 +24,7 @@ export default function Home() {
 
         <section id="about" className={style.aboutSect}>
 
-          <h1 style={{ font: 32, marginTop: "4vh", color: "#5c2d2d" }}>About me</h1>
+          <h1 style={{ font: 32, marginTop: "4vh", color: "#5c2d2d", textAlign: "center" }}>About me</h1>
 
 
           <p style={{ textAlign: "left" }}>
@@ -35,7 +35,6 @@ export default function Home() {
             drew me to this field?
 
           </p>
-
 
         </section>
 
